@@ -1,0 +1,81 @@
+.page-wrap {
+    background-image: linear-gradient(#D88BD5, #FF69B4, #AC3B61, #990011);
+    border: 10px ridge indigo;
+}
+
+.header {
+    background-image: linear-gradient(#123C69, #BAB2B5, #008000);
+    color: rgb(76, 76, 76);
+    text-shadow: 2px 2px 5px rgb(255, 0, 0);
+    font: 100% georgia, serif;
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    color: rgb(8, 75, 14);
+    font: 90% georgia, serif;
+}
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    border-radius: 30px 5px 30px 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+
+.step1, .step2, .step3, .step4, .step5, .step6, .step7, .step8, .step9, .step10, .step11, .step12, .step13, .step14, .step15, .step16, .step17, .step18, .step19, .step20, .step21, .step22, .step23, .step24, .step25, .step26, .step27 {
+    opacity: 0.5;
+}
+
+.step1 p, .step2 p, .step3 p, .step4 p, .step5 p, .step6 p, .step7 p, .step8 p, .step9 p, .step10 p, .step11 p, .step12 p, .step13 p, .step14 p, .step15 p, .step16 p, .step17 p, .step18 p, .step19 p, .step20 p, .step21 p, .step22 p, .step23 p, .step24 p, .step25 p, .step26 p, .step27 p {
+    font: 20px garamond;
+    opacity: 0;
+    color: #000000
+} 
+
+.step1:hover, .step2:hover, .step3:hover, .step4:hover, .step5:hover, .step6:hover, .step7:hover, .step8:hover, .step9:hover, .step10:hover, .step11:hover, .step12:hover, .step13:hover, .step14:hover, .step15:hover, .step16:hover, .step17:hover, .step18:hover, .step19:hover, .step20:hover, .step21:hover, .step22:hover, .step23:hover, .step24:hover, .step25:hover, .step26:hover, .step27:hover {
+    border: 5px dotted rgb(87, 41, 3);
+    opacity: 1;
+}
+
+.step1:hover p, .step2:hover p, .step3:hover p, .step4:hover p, .step5:hover p, .step6:hover p, .step7:hover p, .step8:hover p, .step9:hover p, .step10:hover p, .step11:hover p, .step12:hover p, .step13:hover p, .step14:hover p, .step15:hover p, .step16:hover p, .step17:hover p, .step18:hover p, .step19:hover p, .step20:hover p, .step21:hover p, .step22:hover p, .step23:hover p, .step24:hover p, .step25:hover p, .step26:hover p, .step27:hover p{
+    opacity: 1;
+    font-weight: bold;
+}
+
+/*
+.step1:hover img, .step2:hover img, .step3:hover img, .step4:hover img, .step5:hover img, .step6:hover img, .step7:hover img, .step8:hover img, .step9:hover img, .step10:hover img, .step11:hover img, .step12:hover img, .step13:hover img, .step14:hover img, .step15:hover img, .step16:hover img, .step17:hover img, .step18:hover img, .step19:hover img, .step20:hover img, .step21:hover img, .step22:hover img, .step23:hover img, .step24:hover img, .step25:hover img, .step26:hover img, .step27:hover img {
+    box-shadow: 5px 5px rgb(53, 53, 248);
+}
+*/
+
+.details {
+    font: 30px garamond;
+    color:rgb(75, 9, 83);
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+span {
+    font-size: 70px;
+}
+
+a:link {
+    color: #EDC7B7;
+}
+
+a:visited {
+    color: #83B9D6;
+}
